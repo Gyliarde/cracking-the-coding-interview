@@ -1,6 +1,6 @@
 package Ch01.Arrays_and_Strings.Q1_01_Is_Unique
 
-/* Determine a function if string has all a unique character */
+/** Determine a function if string has all a unique character */
 
 fun isUniqueChars(str: String): Boolean {
     if (str.length > 128) return false
