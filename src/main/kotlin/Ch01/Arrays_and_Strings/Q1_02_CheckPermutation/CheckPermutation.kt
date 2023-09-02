@@ -38,17 +38,17 @@ fun isPermutationByIdenticalCounts(first: String, second: String) :Boolean {
 }
 
 fun main() {
-//    isPermutationBySorting("abc", "abc") eq true
-//    isPermutationBySorting("acb", "abc") eq true
-//    isPermutationBySorting("cba", "acb") eq true
-//    isPermutationBySorting("aab", "baa") eq true
-//    isPermutationBySorting("abc", "aab") eq false
-//    isPermutationBySorting("abc", "aac") eq false
-//
-//    isPermutationByIdenticalCounts("abc", "abc") eq true
-//    isPermutationByIdenticalCounts("acb", "abc") eq true
-//    isPermutationByIdenticalCounts("cba", "acb") eq true
-//    isPermutationByIdenticalCounts("aab", "baa") eq true
+    isPermutationBySorting("abc", "abc") eq true
+    isPermutationBySorting("acb", "abc") eq true
+    isPermutationBySorting("cba", "acb") eq true
+    isPermutationBySorting("aab", "baa") eq true
+    isPermutationBySorting("abc", "aab") eq false
+    isPermutationBySorting("abc", "aac") eq false
+
+    isPermutationByIdenticalCounts("abc", "abc") eq true
+    isPermutationByIdenticalCounts("acb", "abc") eq true
+    isPermutationByIdenticalCounts("cba", "acb") eq true
+    isPermutationByIdenticalCounts("aab", "baa") eq true
     isPermutationByIdenticalCounts("abc", "aab") eq false
     isPermutationByIdenticalCounts("abc", "aac") eq false
 }
